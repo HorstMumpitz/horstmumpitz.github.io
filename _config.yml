@@ -1,58 +1,56 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://blog.horstmumpitz.de" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
+  title: Gedankensammlung
+  avatar: 
+  gravatar: 617485af2f16fb6fd759d7e9d1fd0293
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Notizen zu meinen Gedanken rundum Technologien und foobar.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: hello@denniskluge.de
   behance:
   bitbucket:
   dribbble:
   facebook:
-  flickr:
-  github: "rohanchandra/type-theme"
+  flickr: https://www.flickr.com/photos/horstmumpitz
+  github: "HorstMumpitz"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  https://de.linkedin.com/pub/dennis-kluge/51/31a/365
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "HorstMumpitz"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-45637480-4"
   disqus_shortname:
   katex: true # Enable if using math markup
 
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
+  str_email: "eMail"
+  str_next: "Nächste"
+  str_prev: "Vorherige"
+  str_continue_reading: "Weiterlesen"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
