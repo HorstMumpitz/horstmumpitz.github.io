@@ -3,9 +3,6 @@ layout: post
 title: Lessons Learned 1 - Life’s too Short.
 ---
 
-
-# Lessons Learned #1
-
 > Life’s too short
 
 Direkt vor meiner Haustür ist heute ein schrecklicher Unfall passiert. Offensichtlich wurde eine Person und ihr Hund von einem Auto überfahren. Der Hund verstarb, die Person wurde vom Notarzt behandelt und erst nach ca. 20min in das Krankenhaus gebracht. 
