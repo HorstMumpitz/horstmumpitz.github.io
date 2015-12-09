@@ -6,7 +6,7 @@ url: "http://blog.horstmumpitz.de" # the base hostname & protocol for your site
 theme:
   # Meta
   title: Gedankensammlung
-  avatar: 
+  avatar:
   gravatar: 617485af2f16fb6fd759d7e9d1fd0293
   description: "A website with blog posts and pages" # used by search engines
 
@@ -54,11 +54,12 @@ theme:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  
+
   # Post navigation
   post_navigation: false
 
 # PAGINATION
+gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "blog/page:num"
 
